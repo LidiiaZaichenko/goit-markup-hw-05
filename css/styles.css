@@ -516,13 +516,12 @@ img {
 }
 .close {
   display: block;
-  width: 24px;
-  height: 24px;
-  padding: 8px;
+  width: 8px;
+  height: 8px;
   fill: #000000;
 }
-.close:hover {
-  fill: currentColor;
+.close-modal:hover .close {
+  fill: var(--color-white);
 }
 .close-modal {
   position: absolute;
@@ -541,7 +540,7 @@ img {
 .close-modal:hover {
   background-color: var(--primary-brand-color-accent);
   border: 1px solid var(--primary-brand-color-accent);
-  color: var(--color-white);
+
 }
 
 /*.
